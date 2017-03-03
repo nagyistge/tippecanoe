@@ -465,7 +465,7 @@ bool decode(char *fname, int z, unsigned x, unsigned y) {
 }
 
 void usage(char **argv) {
-	fprintf(stderr, "Usage: %s [-t projection] file.mbtiles [zoom x y] [zoom south west north east]\n", argv[0]);
+	fprintf(stderr, "Usage: %s [-t projection] file.mbtiles [zoom x y] [zoom west north east south]\n", argv[0]);
 	exit(EXIT_FAILURE);
 }
 
